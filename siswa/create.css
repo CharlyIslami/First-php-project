@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 45%, #e9f7ff 100%);
+}
+
+.heading-create {
+    font-size: 2rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+    background-color: #ffffff;;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+input {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+
+input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+}
+
+select {
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+textarea {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #16a34a;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #15803d;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(21, 128, 61, 0.16);;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #374151;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(55, 65, 81, 0.10);
+}
